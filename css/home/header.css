@@ -1,0 +1,29 @@
+.header-bg {
+  background-color: #5c6bc0;
+}
+.header-menu {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-nav ul {
+  display: flex;
+}
+.header-nav li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 4px solid #5c6bc0;
+  padding: 4px 6px;
+  width: 100%;
+}
+.header-nav li a:hover {
+  border-bottom: 4px solid #fff;
+}
+.header-nav ul li + li {
+  margin-left: 25px;
+}
