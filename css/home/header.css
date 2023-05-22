@@ -1,8 +1,9 @@
 .header-bg {
-  background-color: #5c6bc0;
+  background-color: #100f27;
 }
 .header-menu {
-  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,17 +14,37 @@
 }
 .header-nav li a {
   color: #fff;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 1.2em;
   font-family: "Poppins", sans-serif;
-  border-bottom: 4px solid #5c6bc0;
+  border-bottom: 4px solid #100f27;
   padding: 4px 6px;
   width: 100%;
+  transition: 0.3s;
 }
 .header-nav li a:hover {
   border-bottom: 4px solid #fff;
 }
 .header-nav ul li + li {
   margin-left: 25px;
+}
+
+@media (max-width: 800px) {
+  .header-nav {
+    margin-bottom: 15px;
+  }
+  .header-menu img {
+    margin-bottom: 25px;
+  }
+
+  .header-nav li a {
+    background-color: #3d51c2;
+    padding: 8px;
+    border-radius: 4px;
+    border-bottom: none;
+  }
+  .header-nav li a:hover {
+    border-bottom: none;
+  }
 }

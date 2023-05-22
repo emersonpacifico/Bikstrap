@@ -19,6 +19,9 @@
   border: none;
   cursor: pointer;
 }
+.botao1:hover {
+  background-color: #4151ac;
+}
 .botao2 {
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a50c);

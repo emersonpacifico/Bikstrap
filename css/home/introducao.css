@@ -1,25 +1,26 @@
 .introducao-bg {
   background-color: #100f27;
+  box-shadow: inset 0 -120px var(--cor-0);
 }
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  align-items: center;
+}
+
 .introducao-conteudo {
-  display: grid;
-  grid-template-columns: 6fr 2fr;
+  padding-bottom: 80px;
 }
-.introducao-conteudo img {
-  max-width: 450px;
+.introducao-conteudo h1 {
+  font: 600 3rem/1.125 "Poppins", sans-serif;
+  margin-bottom: 30px;
 }
-.introducao-itens {
-  display: grid;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  color: #fff;
-  padding-top: 160px;
+.introducao-conteudo p {
+  margin-bottom: 20px;
+  max-width: 48ch;
 }
-.introducao-itens h1 {
+.introducao-conteudo span {
   font-family: "Poppins", sans-serif;
-  max-width: 15ch;
-}
-.introducao-itens p {
-  max-width: 40ch;
+  color: #5c6bc0;
 }
