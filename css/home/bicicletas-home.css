@@ -1,0 +1,32 @@
+.bicicletas-escolha {
+  max-width: 1400px;
+}
+.bici-escolha-bg h2 {
+  margin-bottom: 30px;
+}
+.bicicletas-escolha {
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+}
+.bici-escolha-bg h2 span {
+  font-family: "Poppins", sans-serif;
+  color: #5c6bc0;
+}
+.bici-escolha-bg h2,
+span {
+  color: var(--cor-12);
+}
+.bici-escolha-bg {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.bicicletas-escolha h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: var(--cor-12);
+}
+.bicicletas-escolha img {
+  max-width: 100%;
+}
