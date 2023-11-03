@@ -1,9 +1,5 @@
-// HOME
-
+// Global
 @import "./global/global";
-@import "./home/header";
-@import "./home/introducao";
-@import "./home/bicicletas-home";
 
 // Cores
 @import "../utilidades/cores";
@@ -13,3 +9,9 @@
 
 // Componentes
 @import "../utilidades/componentes";
+
+// HOME
+@import "./home/header";
+@import "./home/introducao";
+@import "./home/bicicletas-home";
+@import "./home/tecnologia";

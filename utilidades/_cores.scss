@@ -20,6 +20,7 @@
   --cor-bgheader: #100f27;
   --cor-bt: #3d51c2;
   --cor-bt-hover: #8393ec;
+  --cor-bt-tec: #d2e4ff;
 }
 
 .cor-0 {
@@ -76,4 +77,8 @@
 }
 .cor-p5 {
   color: var(--cor-p5);
+}
+
+.cor-span {
+  color: var(--cor-bt);
 }

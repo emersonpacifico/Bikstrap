@@ -62,7 +62,9 @@
 .botao.secundario:hover {
   background: var(--cor-9);
 }
-
+.bd {
+  border-radius: 50%;
+}
 .link {
   display: inline-block; /*definindo com inline-block pega todo o padding como link*/
   color: var(--cor-p1);

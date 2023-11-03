@@ -1,0 +1,56 @@
+.tecnologia-bg {
+  background-color: var(--cor-bgheader);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 0;
+  margin-bottom: 100px;
+}
+.tecnologia {
+  margin-top: 40px;
+  height: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  gap: 10px;
+}
+
+.tecnologia-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-right: 5px;
+}
+.titulos h2 {
+  margin-bottom: 20px;
+}
+.titulos h1 {
+  max-width: 400px;
+}
+
+.tecnologia-p {
+  max-width: 400px;
+  margin: 20px 0;
+}
+.icones {
+  display: flex;
+}
+.tecn-icones {
+  max-width: 800px;
+}
+.tec-bt {
+  padding-bottom: 5px;
+  border-bottom: 3px solid var(--cor-p1);
+  align-self: flex-start;
+  color: var(--cor-p1);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tech-t {
+}
+.tech-p {
+}
